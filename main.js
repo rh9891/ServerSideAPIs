@@ -103,7 +103,7 @@ function uvIndex(longitude, latitude) {
 		} else if (uvFinal < 6) {
 			// The media graphic color would be displayed as yellow.
 			uvBtn.attr("style", "background-color:yellow");
-		} else if (uvFinal < 12) {
+		} else if (uvFinal < 16) {
 			// The media graphic color would be displayed as red.
 			uvBtn.attr("style", "background-color:red");
 		}
