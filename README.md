@@ -50,6 +50,8 @@ The following images demonstrate the use of ``local storage`` to save the previo
 
 ![Previously Searched Cities Preview](images/previouslySearchedCitiesPreview.png)
 
+![Local Storage Preview](images/localStoragePreview.png)
+
 ## Links
 
 1. [Deployed Application](https://rh9891.github.io/WeatherDashboard)
