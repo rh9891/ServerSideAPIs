@@ -4,7 +4,7 @@
 *  [Description](#description)
 *  [User Story](#user-story)
 *  [Features of the Application](#features-of-the-application)
-*  [Preview of Weather Dashboard](#preview-of-weather-dashboard)
+*  [Preview of the Weather Dashboard](#preview-of-the-weather-dashboard)
 *  [Links](#links)
 *  [Usage](#usage)
 *  [Acknowledgments](#acknowledgments)
@@ -14,9 +14,11 @@
 
 ## Description
 
-Server-side APIs are an interface often used by companies to allow users a way to interact and gain access to their information. For this weather dashboard application, I used the [OpenWeatherMap API](https://openweathermap.org/api) in order to gather information about the weather (current and future conditions) for a specified city.
+Server-side APIs are an interface often used by companies to allow users a way to interact and gain access to their information. For this weather dashboard application, the [OpenWeatherMap API](https://openweathermap.org/api) was utilized in order to gather information about the weather (current and future conditions) for a specified city.
 
-The retrieved data from the OpenWeatherMap API call provided detailed information regarding the forecast, ultraviolet (UV) index, humidity levels, longitudinal and latitudinal coordinates, wind speeds, and visibility, among other things. Using this bulk information, I was able to sift through the JSON object, extract the necessary information to render onto the page, and build a weather dashboard that is both dynamic and functional.
+The retrieved data from the OpenWeatherMap API call provided detailed information regarding the forecast, ultraviolet (UV) index, humidity levels, longitudinal and latitudinal coordinates, wind speeds, and visibility, among other things. Using this bulk information, a sift through the JSON object was required to extract the necessary information in order to build a weather dashboard that is both dynamic and functional.
+
+The Weather Dashboard is an application that allows the user to search for a city to display the current weather conditions - as well as 5-day forecast - using the OpenWeatherMap API. The application also uses local storage to save a history of cities for which the user has previously searched and dynamically displays icons appropriate to the weather conditions.
 
 ## User Story
 ~~~
@@ -30,11 +32,12 @@ SO THAT I can plan a trip accordingly
 GIVEN a weather dashboard with form inputs  
 WHEN I search for a city  
 THEN I am presented with current and future conditions for that city and that city is added to the search history  
+
 WHEN I view current weather conditions for that city  
 THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
 ~~~
 
-## Preview of Weather Dashboard
+## Preview of the Weather Dashboard
 
 The following images demonstrate the application functionality:
 
@@ -44,7 +47,7 @@ The following images demonstrate the application functionality:
 
 ![Toulouse Weather Preview](images/toulouseWeatherPreview.png)
 
-The following images demonstrate the use of ``local storage`` to save the previously search cities across browser sessions. When the user opens the weather dashboard, they are presented with the last searched city forecast.:
+The following images demonstrate the use of `local storage` to save the previously search cities across browser sessions. When the user opens the weather dashboard, they are presented with the last searched city forecast.:
 
 ![Algiers Weather Preview](images/algiersWeatherPreview.png)
 
@@ -73,7 +76,7 @@ $.ajax({
 
 ## Acknowledgments
 
-A heartfelt thanks to Github user, Jody Russell, whose code I looked to for inspiration and guidance whenever I found myself stuck in creating the weather dashboard application, especially when coding the UV index (and requiring the second ajax call) and understanding how to render the weather icons onto the page.
+A heartfelt thanks to fellow coder, Jody Russell, whose code I looked to for inspiration and guidance whenever I found myself stuck in creating the weather dashboard application, especially when coding the UV index (and requiring the second ajax call), and understanding how to render the weather icons onto the page.
 
 ## Built Using
 
@@ -91,4 +94,4 @@ The user is not permitted to use, modify, or share any parts of it. Though the c
 
 ## Questions
 
-If you have any questions, comments, or issues regarding this weather dashboard application, please don't hesitate to contact me either via [Github](https://github.com/rh9891) or via email at <romie.hecdivert@gmail.com>.
+If you have any questions, comments, or issues regarding this weather dashboard application, please don't hesitate to contact me via [Github](https://github.com/rh9891).
